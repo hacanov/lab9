@@ -1,5 +1,3 @@
-# Пример использования паттерна Фабрика и Абстрактная фабрика вместе с паттерном Строитель:
-
 class Button:
     def __init__(self):
         self.text = None
@@ -157,7 +155,6 @@ class Director:
         self.builder.add_checkbox(checkbox_label)
 
 if __name__ == "__main__":
-    # Пример использования всех трех паттернов:
 
     director = Director()
 
